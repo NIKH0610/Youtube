@@ -1,7 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-countries_data = pd.read_csv('C:\\Users\\nikhi\\Desktop\\Data Visualization\\countries.csv')
+countries_data = pd.read_csv('C:\\Users\\nikhi\\Desktop\\Data Visualization\\Youtube\\countries.csv'')
 US = countries_data[countries_data.country == 'United States']
 China = countries_data[countries_data.country == 'China']
 
@@ -18,3 +18,5 @@ plt.show()
 
 
 #Compare the population grwoth in the US and China
+
+
